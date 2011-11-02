@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C593811A1446294600CD2452 /* TreeModle.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C59381181446294600CD2452 /* TreeModle.xcdatamodeld */; };
+		C59B09A91442B17F00398A74 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C59B09A81442B17F00398A74 /* UIKit.framework */; };
+		C59B09AB1442B17F00398A74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C59B09AA1442B17F00398A74 /* Foundation.framework */; };
+		C59B09AD1442B17F00398A74 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C59B09AC1442B17F00398A74 /* CoreGraphics.framework */; };
+		C59B09B31442B18000398A74 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C59B09B11442B18000398A74 /* InfoPlist.strings */; };
+		C59B09B61442B18000398A74 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C59B09B51442B18000398A74 /* main.m */; };
+		C59B09B91442B18000398A74 /* XMLUseAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C59B09B81442B18000398A74 /* XMLUseAppDelegate.m */; };
+		C59B09BC1442B18000398A74 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C59B09BA1442B18000398A74 /* MainWindow.xib */; };
+		C59B09C31442B18000398A74 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C59B09A81442B17F00398A74 /* UIKit.framework */; };
+		C59B09C41442B18000398A74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C59B09AA1442B17F00398A74 /* Foundation.framework */; };
+		C59B09C51442B18000398A74 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C59B09AC1442B17F00398A74 /* CoreGraphics.framework */; };
+		C59B09CD1442B18000398A74 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C59B09CB1442B18000398A74 /* InfoPlist.strings */; };
+		C59B09D01442B18000398A74 /* XMLUseTests.h in Resources */ = {isa = PBXBuildFile; fileRef = C59B09CF1442B18000398A74 /* XMLUseTests.h */; };
+		C59B09D21442B18000398A74 /* XMLUseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C59B09D11442B18000398A74 /* XMLUseTests.m */; };
+		C59B09E01442B79F00398A74 /* XMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = C59B09DF1442B79F00398A74 /* XMLParser.m */; };
+		C59B09E31442C42000398A74 /* XMLList.m in Sources */ = {isa = PBXBuildFile; fileRef = C59B09E21442C42000398A74 /* XMLList.m */; };
+		C59B09EB1443603E00398A74 /* TreeUse.xml in Resources */ = {isa = PBXBuildFile; fileRef = C59B09EA1443603E00398A74 /* TreeUse.xml */; };
+		C59B0A2E1443E23800398A74 /* MyTableViewUse.m in Sources */ = {isa = PBXBuildFile; fileRef = C59B0A2D1443E23800398A74 /* MyTableViewUse.m */; };
+		C5BF6C7114441FBA007AE673 /* myIndexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BF6C6F14441FBA007AE673 /* myIndexViewController.m */; };
+		C5BF6C7214441FBA007AE673 /* myIndexViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5BF6C7014441FBA007AE673 /* myIndexViewController.xib */; };
+		DDC64F9D14467B9100FB37DF /* CoreDataBaseUse.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC64F9C14467B9100FB37DF /* CoreDataBaseUse.m */; };
+		DDC64FA014467C3800FB37DF /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDC64F9F14467C3800FB37DF /* CoreData.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C59B09C61442B18000398A74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C59B099B1442B17F00398A74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C59B09A31442B17F00398A74;
+			remoteInfo = XMLUse;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C59381191446294600CD2452 /* TreeModle.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TreeModle.xcdatamodel; sourceTree = "<group>"; };
+		C59B09A41442B17F00398A74 /* XMLUse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XMLUse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C59B09A81442B17F00398A74 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C59B09AA1442B17F00398A74 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C59B09AC1442B17F00398A74 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C59B09B01442B17F00398A74 /* XMLUse-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XMLUse-Info.plist"; sourceTree = "<group>"; };
+		C59B09B21442B18000398A74 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C59B09B41442B18000398A74 /* XMLUse-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XMLUse-Prefix.pch"; sourceTree = "<group>"; };
+		C59B09B51442B18000398A74 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C59B09B71442B18000398A74 /* XMLUseAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMLUseAppDelegate.h; sourceTree = "<group>"; };
+		C59B09B81442B18000398A74 /* XMLUseAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMLUseAppDelegate.m; sourceTree = "<group>"; };
+		C59B09BB1442B18000398A74 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		C59B09C21442B18000398A74 /* XMLUseTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XMLUseTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C59B09CA1442B18000398A74 /* XMLUseTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XMLUseTests-Info.plist"; sourceTree = "<group>"; };
+		C59B09CC1442B18000398A74 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C59B09CE1442B18000398A74 /* XMLUseTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XMLUseTests-Prefix.pch"; sourceTree = "<group>"; };
+		C59B09CF1442B18000398A74 /* XMLUseTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMLUseTests.h; sourceTree = "<group>"; };
+		C59B09D11442B18000398A74 /* XMLUseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMLUseTests.m; sourceTree = "<group>"; };
+		C59B09DE1442B79F00398A74 /* XMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLParser.h; sourceTree = "<group>"; };
+		C59B09DF1442B79F00398A74 /* XMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLParser.m; sourceTree = "<group>"; };
+		C59B09E11442C42000398A74 /* XMLList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLList.h; sourceTree = "<group>"; };
+		C59B09E21442C42000398A74 /* XMLList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLList.m; sourceTree = "<group>"; };
+		C59B09EA1443603E00398A74 /* TreeUse.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = TreeUse.xml; path = ../TreeUse.xml; sourceTree = "<group>"; };
+		C59B0A2C1443E23700398A74 /* MyTableViewUse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewUse.h; sourceTree = "<group>"; };
+		C59B0A2D1443E23800398A74 /* MyTableViewUse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewUse.m; sourceTree = "<group>"; };
+		C5BF6C6E14441FBA007AE673 /* myIndexViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myIndexViewController.h; sourceTree = "<group>"; };
+		C5BF6C6F14441FBA007AE673 /* myIndexViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myIndexViewController.m; sourceTree = "<group>"; };
+		C5BF6C7014441FBA007AE673 /* myIndexViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = myIndexViewController.xib; sourceTree = "<group>"; };
+		DDC64F9B14467B9100FB37DF /* CoreDataBaseUse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataBaseUse.h; sourceTree = "<group>"; };
+		DDC64F9C14467B9100FB37DF /* CoreDataBaseUse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataBaseUse.m; sourceTree = "<group>"; };
+		DDC64F9F14467C3800FB37DF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C59B09A11442B17F00398A74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDC64FA014467C3800FB37DF /* CoreData.framework in Frameworks */,
+				C59B09A91442B17F00398A74 /* UIKit.framework in Frameworks */,
+				C59B09AB1442B17F00398A74 /* Foundation.framework in Frameworks */,
+				C59B09AD1442B17F00398A74 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C59B09BE1442B18000398A74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C59B09C31442B18000398A74 /* UIKit.framework in Frameworks */,
+				C59B09C41442B18000398A74 /* Foundation.framework in Frameworks */,
+				C59B09C51442B18000398A74 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C59B09991442B17F00398A74 = {
+			isa = PBXGroup;
+			children = (
+				DDC64F9F14467C3800FB37DF /* CoreData.framework */,
+				C59B09AE1442B17F00398A74 /* XMLUse */,
+				C59B09C81442B18000398A74 /* XMLUseTests */,
+				C59B09A71442B17F00398A74 /* Frameworks */,
+				C59B09A51442B17F00398A74 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C59B09A51442B17F00398A74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C59B09A41442B17F00398A74 /* XMLUse.app */,
+				C59B09C21442B18000398A74 /* XMLUseTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C59B09A71442B17F00398A74 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C59B09A81442B17F00398A74 /* UIKit.framework */,
+				C59B09AA1442B17F00398A74 /* Foundation.framework */,
+				C59B09AC1442B17F00398A74 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C59B09AE1442B17F00398A74 /* XMLUse */ = {
+			isa = PBXGroup;
+			children = (
+				C59B09EA1443603E00398A74 /* TreeUse.xml */,
+				C59B09B71442B18000398A74 /* XMLUseAppDelegate.h */,
+				C59B09B81442B18000398A74 /* XMLUseAppDelegate.m */,
+				C59B09DE1442B79F00398A74 /* XMLParser.h */,
+				C59B09DF1442B79F00398A74 /* XMLParser.m */,
+				C59B09BA1442B18000398A74 /* MainWindow.xib */,
+				C59B09E11442C42000398A74 /* XMLList.h */,
+				C59B09E21442C42000398A74 /* XMLList.m */,
+				C59B0A2C1443E23700398A74 /* MyTableViewUse.h */,
+				C59B0A2D1443E23800398A74 /* MyTableViewUse.m */,
+				C5BF6C6E14441FBA007AE673 /* myIndexViewController.h */,
+				C5BF6C6F14441FBA007AE673 /* myIndexViewController.m */,
+				C5BF6C7014441FBA007AE673 /* myIndexViewController.xib */,
+				DDC64F9B14467B9100FB37DF /* CoreDataBaseUse.h */,
+				DDC64F9C14467B9100FB37DF /* CoreDataBaseUse.m */,
+				C59381181446294600CD2452 /* TreeModle.xcdatamodeld */,
+				C59B09AF1442B17F00398A74 /* Supporting Files */,
+			);
+			path = XMLUse;
+			sourceTree = "<group>";
+		};
+		C59B09AF1442B17F00398A74 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C59B09B01442B17F00398A74 /* XMLUse-Info.plist */,
+				C59B09B11442B18000398A74 /* InfoPlist.strings */,
+				C59B09B41442B18000398A74 /* XMLUse-Prefix.pch */,
+				C59B09B51442B18000398A74 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C59B09C81442B18000398A74 /* XMLUseTests */ = {
+			isa = PBXGroup;
+			children = (
+				C59B09CF1442B18000398A74 /* XMLUseTests.h */,
+				C59B09D11442B18000398A74 /* XMLUseTests.m */,
+				C59B09C91442B18000398A74 /* Supporting Files */,
+			);
+			path = XMLUseTests;
+			sourceTree = "<group>";
+		};
+		C59B09C91442B18000398A74 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C59B09CA1442B18000398A74 /* XMLUseTests-Info.plist */,
+				C59B09CB1442B18000398A74 /* InfoPlist.strings */,
+				C59B09CE1442B18000398A74 /* XMLUseTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C59B09A31442B17F00398A74 /* XMLUse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C59B09D51442B18000398A74 /* Build configuration list for PBXNativeTarget "XMLUse" */;
+			buildPhases = (
+				C59B09A01442B17F00398A74 /* Sources */,
+				C59B09A11442B17F00398A74 /* Frameworks */,
+				C59B09A21442B17F00398A74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XMLUse;
+			productName = XMLUse;
+			productReference = C59B09A41442B17F00398A74 /* XMLUse.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C59B09C11442B18000398A74 /* XMLUseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C59B09D81442B18000398A74 /* Build configuration list for PBXNativeTarget "XMLUseTests" */;
+			buildPhases = (
+				C59B09BD1442B18000398A74 /* Sources */,
+				C59B09BE1442B18000398A74 /* Frameworks */,
+				C59B09BF1442B18000398A74 /* Resources */,
+				C59B09C01442B18000398A74 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C59B09C71442B18000398A74 /* PBXTargetDependency */,
+			);
+			name = XMLUseTests;
+			productName = XMLUseTests;
+			productReference = C59B09C21442B18000398A74 /* XMLUseTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C59B099B1442B17F00398A74 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C59B099E1442B17F00398A74 /* Build configuration list for PBXProject "XMLUse" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C59B09991442B17F00398A74;
+			productRefGroup = C59B09A51442B17F00398A74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C59B09A31442B17F00398A74 /* XMLUse */,
+				C59B09C11442B18000398A74 /* XMLUseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C59B09A21442B17F00398A74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C59B09B31442B18000398A74 /* InfoPlist.strings in Resources */,
+				C59B09BC1442B18000398A74 /* MainWindow.xib in Resources */,
+				C59B09EB1443603E00398A74 /* TreeUse.xml in Resources */,
+				C5BF6C7214441FBA007AE673 /* myIndexViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C59B09BF1442B18000398A74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C59B09CD1442B18000398A74 /* InfoPlist.strings in Resources */,
+				C59B09D01442B18000398A74 /* XMLUseTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C59B09C01442B18000398A74 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C59B09A01442B17F00398A74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C59B09B61442B18000398A74 /* main.m in Sources */,
+				C59B09B91442B18000398A74 /* XMLUseAppDelegate.m in Sources */,
+				C59B09E01442B79F00398A74 /* XMLParser.m in Sources */,
+				C59B09E31442C42000398A74 /* XMLList.m in Sources */,
+				C59B0A2E1443E23800398A74 /* MyTableViewUse.m in Sources */,
+				C5BF6C7114441FBA007AE673 /* myIndexViewController.m in Sources */,
+				C593811A1446294600CD2452 /* TreeModle.xcdatamodeld in Sources */,
+				DDC64F9D14467B9100FB37DF /* CoreDataBaseUse.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C59B09BD1442B18000398A74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C59B09D21442B18000398A74 /* XMLUseTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C59B09C71442B18000398A74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C59B09A31442B17F00398A74 /* XMLUse */;
+			targetProxy = C59B09C61442B18000398A74 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C59B09B11442B18000398A74 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C59B09B21442B18000398A74 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C59B09BA1442B18000398A74 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C59B09BB1442B18000398A74 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		C59B09CB1442B18000398A74 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C59B09CC1442B18000398A74 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C59B09D31442B18000398A74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C59B09D41442B18000398A74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		C59B09D61442B18000398A74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XMLUse/XMLUse-Prefix.pch";
+				INFOPLIST_FILE = "XMLUse/XMLUse-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C59B09D71442B18000398A74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XMLUse/XMLUse-Prefix.pch";
+				INFOPLIST_FILE = "XMLUse/XMLUse-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C59B09D91442B18000398A74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/XMLUse.app/XMLUse";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XMLUseTests/XMLUseTests-Prefix.pch";
+				INFOPLIST_FILE = "XMLUseTests/XMLUseTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		C59B09DA1442B18000398A74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/XMLUse.app/XMLUse";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XMLUseTests/XMLUseTests-Prefix.pch";
+				INFOPLIST_FILE = "XMLUseTests/XMLUseTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C59B099E1442B17F00398A74 /* Build configuration list for PBXProject "XMLUse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C59B09D31442B18000398A74 /* Debug */,
+				C59B09D41442B18000398A74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C59B09D51442B18000398A74 /* Build configuration list for PBXNativeTarget "XMLUse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C59B09D61442B18000398A74 /* Debug */,
+				C59B09D71442B18000398A74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C59B09D81442B18000398A74 /* Build configuration list for PBXNativeTarget "XMLUseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C59B09D91442B18000398A74 /* Debug */,
+				C59B09DA1442B18000398A74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C59381181446294600CD2452 /* TreeModle.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C59381191446294600CD2452 /* TreeModle.xcdatamodel */,
+			);
+			currentVersion = C59381191446294600CD2452 /* TreeModle.xcdatamodel */;
+			path = TreeModle.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C59B099B1442B17F00398A74 /* Project object */;
+}
